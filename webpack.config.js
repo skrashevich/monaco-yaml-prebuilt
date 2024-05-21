@@ -9,6 +9,9 @@ export default {
   entry: {
     'monaco-editor': './src/editor.js'
   },
+  node: {
+    __dirname: true
+  },
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
@@ -21,7 +24,7 @@ export default {
       },
       {
         test: /\.ttf$/,
-        type: 'asset',
+        type: 'asset/inline',
       }
     ],
   },
