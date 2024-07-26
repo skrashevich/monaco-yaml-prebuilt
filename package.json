@@ -1,6 +1,6 @@
 {
   "name": "@skrashevich/monaco-yaml-prebuilt",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Compiled monaco-yaml for direct in-browser use",
   "license": "MIT",
   "main": "./dist/monaco-editor.bundle.js",
